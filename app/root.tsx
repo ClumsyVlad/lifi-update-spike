@@ -6,8 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-
-import { cssBundleHref } from '@remix-run/css-bundle';
+import { cssBundleHref } from "@remix-run/css-bundle";
 import "./tailwind.css";
 
 export const links: LinksFunction = () => [
